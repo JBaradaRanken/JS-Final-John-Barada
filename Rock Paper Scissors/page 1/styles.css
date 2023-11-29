@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .carousel-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 100%;
+    display: none;
+  }
+  
+  .carousel img.active {
+    display: block;
+  }
+  
+  button {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  

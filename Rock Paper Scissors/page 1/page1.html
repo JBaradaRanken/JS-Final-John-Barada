@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPS Game - Home</title>
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+<li><a href="#" onclick="navigateTo('page1.html')">Home</a></li>
+<li><a href="#" onclick="navigateTo('page2.html')">FAQ</a></li>
+<li><a href="#" onclick="navigateTo('page3.html')">Play</a></li>
+<li><a href="#" onclick="navigateTo('page4.html')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="carousel-inner">
+        <img src="images/paper.jpg" alt="Paper">
+        <img src="images/rock.webp" alt="Rock">
+        <img src="images/scissors.jpg" alt="Scissors">
+      </div>
+    </div>
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <script src="js/carousel.js"></script>
+  <script src="js/navigation.js"></script>
+</body>
+</html>
